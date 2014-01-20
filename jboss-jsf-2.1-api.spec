@@ -33,7 +33,7 @@ BuildRequires: jboss-jsp-2.2-api
 BuildRequires: jboss-jstl-1.2-api
 %if 0%{?fedora}
 %else
-Buildequires:  bean-validation-api
+BuildRequires: bean-validation-api
 %endif
 
 Requires: jpackage-utils
