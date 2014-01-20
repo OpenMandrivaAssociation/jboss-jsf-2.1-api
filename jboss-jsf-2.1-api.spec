@@ -31,6 +31,10 @@ BuildRequires: objenesis
 BuildRequires: jboss-el-2.2-api
 BuildRequires: jboss-jsp-2.2-api
 BuildRequires: jboss-jstl-1.2-api
+%if 0%{?fedora}
+%else
+Buildequires:  bean-validation-api
+%endif
 
 Requires: jpackage-utils
 Requires: jboss-jsp-2.2-api
