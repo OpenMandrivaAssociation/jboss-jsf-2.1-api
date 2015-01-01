@@ -4,7 +4,7 @@
 
 Name: jboss-jsf-2.1-api
 Version: 2.0.2
-Release: 9.1
+Release: 9.2
 Summary: JavaServer Faces 2.1 API
 Group:   Development/Java
 License: CDDL or GPLv2 with exceptions
@@ -69,8 +69,8 @@ This package contains the API documentation for %{name}.
 # Apply the patches:
 %patch0 -p1
 
-
 %build
+%mvn_alias : javax.faces:jsf-api
 %mvn_build
 
 %install
