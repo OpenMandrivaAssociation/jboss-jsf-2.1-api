@@ -4,7 +4,7 @@
 
 Name: jboss-jsf-2.1-api
 Version: 2.0.2
-Release: 9.3
+Release: 9.4
 Summary: JavaServer Faces 2.1 API
 Group:   Development/Java
 License: CDDL or GPLv2 with exceptions
