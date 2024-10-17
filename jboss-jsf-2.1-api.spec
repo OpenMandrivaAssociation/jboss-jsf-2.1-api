@@ -8,7 +8,7 @@ Release: 9.4
 Summary: JavaServer Faces 2.1 API
 Group:   Development/Java
 License: CDDL or GPLv2 with exceptions
-URL: http://www.jboss.org
+URL: https://www.jboss.org
 
 # git clone git://github.com/jboss/jboss-jsf-api_spec.git jboss-jsf-2.1-api
 # cd jboss-jsf-2.1-api/ && git archive --format=tar --prefix=jboss-jsf-2.1-api-2.0.2.Final/ jboss-jsf-api_2.1_spec-2.0.2.Final | xz > jboss-jsf-2.1-api-2.0.2.Final.tar.xz
